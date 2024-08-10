@@ -42,7 +42,7 @@ source env/bin/activate  # On Windows, use `env\Scripts\activate`
 The main script `model.py` contains the implementation of the linear regression model. You can use this class to fit a model to your data and make predictions. Here's a basic example:
 
 ```python
-from model import LinearRegression
+from linear_regression.model import LinearRegression
 
 # Sample data
 X = [[1], [2], [3], [4], [5]]
